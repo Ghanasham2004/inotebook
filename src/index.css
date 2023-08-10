@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* add body scrollbar css */
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #686868;
+  border-radius: 5px;
+  width: 0.4rem;
+  margin: .1rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  cursor: pointer;
+}
+
+.box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 2.6rem;
+  width: fit-content;
+}
+
+.box-container h5{
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  position: relative;
+}
+
+.container.login,
+.my-form-con{
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0px 0px 1rem 0px #f8f8f8;
+}
+
+.container.login{
+  width: 40%;
+  /* center div */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
